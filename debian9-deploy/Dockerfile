@@ -19,17 +19,13 @@ RUN echo "===> Installing python, sudo, and supporting tools..."  && \
         python python-yaml sudo            \
         curl gcc python-pip python-dev libffi-dev libssl-dev  && \
     apt-get -y --purge remove python-cffi          && \
+	apt-get install -y git                         && \
     pip install --upgrade pycrypto cffi pywinrm    && \
     \
     \
     \
     echo "===> Installing Ansible..."   && \
     pip install ansible                 && \
-    \
-    \
-    \
-	echo "===> Installing Git..."   && \
-    pip install git                 && \
     \
     \
     \
