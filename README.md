@@ -1,12 +1,8 @@
 Docker-Ansible base images
 ===================
 
-[![Circle CI](https://circleci.com/gh/William-Yeh/docker-ansible.svg?style=shield)](https://circleci.com/gh/William-Yeh/docker-ansible) [![Build Status](https://travis-ci.org/William-Yeh/docker-ansible.svg?branch=master)](https://travis-ci.org/William-Yeh/docker-ansible)
-
-
 ## Summary
-
-Repository name in Docker Hub: **[williamyeh/ansible](https://hub.docker.com/r/williamyeh/ansible/)**
+This repository is a fork of **[williamyeh/ansible](https://hub.docker.com/r/williamyeh/ansible/)**
 
 This repository contains Dockerized [Ansible](https://github.com/ansible/ansible), published to the public [Docker Hub](https://hub.docker.com/) via **automated build** mechanism.
 
